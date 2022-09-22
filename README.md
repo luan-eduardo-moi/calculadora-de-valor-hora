@@ -12,14 +12,19 @@
   <span>
     <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" height="60">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png" height="60">
-    <img src="https://4.bp.blogspot.com/-oHMa7P0GxnU/VUe5vTdMBxI/AAAAAAAALTw/LTEB77VmLkA/s1600/html5_css3.png" width="80">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbFyCIgAHrJAjB1IqhtfJbYgp0PgEVBumx2XhfvNh5srt0lMNgSLR1aS8MhlOpZBVrb0&usqp=CAU" height="60">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" height="60">
   </span>
   
   <br>
   
   <h1> 📜 Status </h1>
   <p> Situação: em ajuda ao desenvolvimento </p>
-    
+  <br>
+  
+  <h1> 💻 Funcionalidades </h1>
+  <p> Visualização nas horas, minutos e segundos e valor da hora 💲</p>
+  <p> Responsabilidade 📲 </p>
   <br>
   
   <h3> Página inicial </h3>
