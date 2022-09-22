@@ -21,7 +21,7 @@
   <h1> 📜 Status </h1>
   <p> Situação: Em aperfeiçoamento </p>
   <p>Teste agora : 
-  <a href="https://horas.luan-eduardo-si.repl.co/index.html" target="blancl_">
+  <a href="https://horas.luan-eduardo-si.repl.co/index.html" target="_blank">
   TESTAR
   <p/>
   <br>
