@@ -12,14 +12,18 @@
   <span>
     <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" height="60">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png" height="60">
-    <img src="https://blog.vandersonguidi.com.br/wp-content/uploads/2014/01/html5_css3.png" width="400">
+    <img src="https://blog.vandersonguidi.com.br/wp-content/uploads/2014/01/html5_css3.png" width="80">
   </span>
   
   <br>
   
   <h3> Página inicial </h3>
   <br>
+  <img src="https://img001.prntscr.com/file/img001/m5erurGcRIOxPLFlkymxjw.png" width="1000">
+  <br>
   
-  <img src="https://img001.prntscr.com/file/img001/m5erurGcRIOxPLFlkymxjw.png" width="400">
-  
+  <h3> Página resultado do cálculo </h3>
+  <br>
+  <img src="https://img001.prntscr.com/file/img001/NwWFPrN-TxW-S9dgQk1K9g.png" width="1000">
+  <br>
   
