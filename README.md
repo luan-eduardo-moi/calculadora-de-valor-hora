@@ -19,7 +19,11 @@
   <br>
   
   <h1> 📜 Status </h1>
-  <p> Situação: em ajuda ao desenvolvimento </p>
+  <p> Situação: Em aperfeiçoamento </p>
+  <p>Teste agora : 
+  <a href="https://horas.luan-eduardo-si.repl.co/index.html" target="blancl_">
+  TESTAR
+  <p/>
   <br>
   
   <h1> 💻 Funcionalidades </h1>
