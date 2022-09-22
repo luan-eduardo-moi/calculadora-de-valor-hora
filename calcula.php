@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="pt-br">
   <head>
     <!-- Required meta tags -->
@@ -9,72 +10,78 @@
 
     <title>Calculadora de Valor Hora</title>
 
-       <style>
+      <style>
           
           h1, label{
-              color: #0dcaf0;
+              color: #0d6efd;
           }
-         
+          
+          input[type="number"]{ 
+              color: #0d6efd;
+          }
+
+          a{
+              text-decoration: none;
+              color: #0d6efd;
+          }
+          
       </style>
       
   </head>
+
     
   <body>
-
-      <?php
-        $taxa_hora = $_POST['taxa_hora']; 
-
-        //valor da Hora Trabalhada Fórmula: (Horas * Valor da Hora). ( 00 x R$ 80,00 )
-        $tempo_hora = $_POST['tempo_hora']; 
-        $valor_hora = ( $tempo_hora * $taxa_hora );
-
-        //valor dos Minutos Trabalhados Fórmula: (Minutos * Valor do Minuto). ( 15 x R$ 1,33 )
-        $tempo_minuto = $_POST['tempo_minuto']; 
-        $valor_minuto = ( $tempo_minuto / 60 ) * $taxa_hora;
+ 
+     <div class="container">
+         
+    <h1 class="mt-5">Cálculo de <strong class="badge bg-primary">Horas em Dinheiro</strong>
+    <hr class="bg-primary">
+                
+    <form action="calcula.php" method="post">
         
-        // SOMA valor hora + valor minuto
-        $total=( 
-            $valor_hora + $valor_minuto
-        );
-      ?>
-
-      <div class="container p-0">
-
-          <h1 class="mt-5">Cálculo de <strong class="badge bg-info">Horas em Dinheiro</strong>
-          </h1>
-        <hr class="bg-info">
-
-
-          <div class="alert alert-info" role="alert">              
-                  <p>
-                    <strong> Tempo gasto: </strong> <?php echo "{$tempo_hora}:{$tempo_minuto}" ?>
-                  </p>
-                        
-                  <p>
-                    <strong> Taxa Por Hora: R$ </strong> <?php echo $taxa_hora; ?>
-                  </p>
-              
-              <hr>
-              
-                  <h5 class="alert-heading">
-                    <strong> Total À Receber: R$ </strong> 
-                    <?php 
-                        echo number_format($total,2,",",".");;
-                    ?>
-                  </h5>
-              
-              <a href="index.html">
-                  <button type="submit" class="btn btn-info mt-3">Calcular Novo Tempo</button>
-              </a>
-              
-         </div>
+    <div class="row">
+        
+        <div class="col-6">        
+        <label style="font-size: 20px" class="form-label" for="tempo_hora">
+              <span>Horas trabalhadas</span>
+          </label>  
+        <input type="number" class="form-control border border-primary" name="tempo_hora" id="tempo_hora" placeholder="Horas trabalhadas" min="0" max="23" required>
+        </div>
+        
+        <div class="col-6">
+        <label style="font-size: 20px" class="form-label" for="tempo_minuto">
+              <span>Minutos trabalhados</span>
+        </label> 
+        <input type="number" class="form-control border border-primary" name="tempo_minuto" id="tempo_minuto" placeholder="Minutos trabalhados" min="0" max="59" required>
+        </div>
+        
+    </div>
+        
+     <div class="col-auto mt-2">
+         <label style="font-size: 20px" class="form-label" for="taxa_hora">
+              <span>Sua taxa por hora R$</span>
+        </label> 
+        <input type="number" class="form-control border border-primary" name="taxa_hora" id="taxa_hora" placeholder="Sua taxa por hora R$" required>
       </div>
 
+    <button type=submit class="btn btn-primary mt-3">Calcular</button>
+        
+    </form>
+
+        <footer>
+            <p class="text-center mt-5" style="font-size: 18px;">
+                © 2022 Desenvolvido por - 
+                <a href="https://github.com/luan-eduardo-moi" target="_blank">
+                Luan Eduardo Moi
+                </a>
+            </p>
+        </footer>
+        
+        
+    </div>
       
-<script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
       
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-  
-</body>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
 </html>
