@@ -1,11 +1,16 @@
   <h1>Projeto - Calculadora de Valor Hora</h1>
   
-  <p>
-  Esse projeto tem o intuito de possibilitar o cálculo do valor por hora.  
+  <h2>Faça um teste : 
+  <a href="https://projeto-calculo-de-valor-hora-v1.luan-eduardo-si.repl.co" target="_blank">
+   TESTAR AGORA
+  </a>
+  <h2/>
   
-  <br>  
-  
   <p>
+  Esse projeto tem o intuito de possibilitar o cálculo do valor por hora.   
+  <p>
+   <br>
+  <p>  
   Nesse projeto comtempla as seguintes tecologias:
   </p>
   
@@ -15,22 +20,13 @@
     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHbFyCIgAHrJAjB1IqhtfJbYgp0PgEVBumx2XhfvNh5srt0lMNgSLR1aS8MhlOpZBVrb0&usqp=CAU" height="60">
     <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" height="60">
   </span>
-  
-  <br>
-  
+   
   <h1> 📜 Status </h1>
   <p> Situação: Em aperfeiçoamento </p>
-  <p>Teste agora : 
-  <a href="https://horas.luan-eduardo-si.repl.co/index.html" target="_blank">
-   TESTAR
-  </a>
-  <p/>
-  <br>
   
   <h1> 💻 Funcionalidades </h1>
   <p> Visualização nas horas, minutos e segundos e valor da hora 💲</p>
   <p> Responsabilidade 📲 </p>
-  <br>
   
   <h3> Página inicial </h3>
   <br>
