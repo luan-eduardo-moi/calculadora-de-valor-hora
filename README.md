@@ -1,11 +1,5 @@
   <h1>Projeto - Calculadora de Valor Hora</h1>
   
-  <h2>Faça um teste : 
-  <a href="https://projeto-calculo-de-valor-hora-v1.luan-eduardo-si.repl.co" target="_blank">
-   TESTAR AGORA
-  </a>
-  <h2/>
-  
   <p>
   Esse projeto tem o intuito de possibilitar o cálculo do valor por hora.   
   <p>
