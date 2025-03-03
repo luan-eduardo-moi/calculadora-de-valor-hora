@@ -1,11 +1,8 @@
   <h1>Projeto - Calculadora de Valor Hora</h1>
   
-  <p>
-  Esse projeto tem o intuito de possibilitar o cálculo do valor por hora.   
-  <p>
-   <br>
-  <p>  
-  Nesse projeto comtempla as seguintes tecologias:
+  <p>O projeto consiste em criar uma calculadora que facilite o cálculo do valor a ser recebido por hora trabalhada. No sistema, ao informar a quantidade de horas e minutos trabalhados, além do valor da hora, é possível determinar automaticamente o total a receber com base nesses dados.</p>
+  
+  <h2>Telecnologias:</h2>:
   </p>
   
   <span>
@@ -15,21 +12,17 @@
     <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" height="60">
   </span>
    
-  <h1> 📜 Status </h1>
+  <h1>📜 Status </h1>
   <p> Situação: Em aperfeiçoamento </p>
-  
-  <h1> 💻 Funcionalidades </h1>
-  <p> Visualização nas horas, minutos e segundos e valor da hora 💲</p>
-  <p> Responsabilidade 📲 </p>
   
   <h3> Página inicial </h3>
   <br>
-  <img src="https://img001.prntscr.com/file/img001/m5erurGcRIOxPLFlkymxjw.png" width="1000">
+  ![Sistema Calculadora Tela 1](https://github.com/user-attachments/assets/c8d5fd3b-c423-4fe0-899b-057b775fc88b)
   <br>
   
   <h3> Página resultado do cálculo </h3>
   <br>
-  <img src="https://img001.prntscr.com/file/img001/KkNi1oxnTSylq-DYwn1Xxw.png" width="1000">
+  ![Sistema Calculadora Tela 2](https://github.com/user-attachments/assets/a789801b-d55e-448a-bb9f-ddd5584246c9)
   <br>
   
 
