@@ -2,7 +2,7 @@
   
   <p>O projeto consiste em criar uma calculadora que facilite o cálculo do valor a ser recebido por hora trabalhada. No sistema, ao informar a quantidade de horas e minutos trabalhados, além do valor da hora, é possível determinar automaticamente o total a receber com base nesses dados.</p>
   
-  <h2>Telecnologias:</h2>:
+  <h2>Telecnologias:</h2>
   </p>
   
   <span>
